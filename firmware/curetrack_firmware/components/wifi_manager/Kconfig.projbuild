@@ -1,0 +1,15 @@
+menu "Wi-Fi Manager Configuration"
+
+    config WIFI_MANAGER_SSID
+        string "Wi-Fi SSID"
+        default ""
+        help
+            Naziv Wi-Fi mreze na koju ce se ESP32 povezati.
+
+    config WIFI_MANAGER_PASSWORD
+        string "Wi-Fi Password"
+        default ""
+        help
+            Lozinka Wi-Fi mreze.
+
+endmenu
